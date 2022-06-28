@@ -12,7 +12,7 @@ jobs:
     env:
       ORG_NAME: BahmniIndiaDistro
       REPOSITORY_NAME: helm-umbrella-chart
-      EVENT_TYPE: helm-publish-event
+      EVENT_TYPE: bahmniindia-helm-publish-event
     steps:
       - name: Create repository_dispatch
         run: |

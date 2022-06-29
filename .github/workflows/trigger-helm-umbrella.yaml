@@ -7,7 +7,6 @@ on:
 jobs:
   trigger:
     name: Trigger Workflows
-    needs: build-upload-artifact
     runs-on: ubuntu-latest
     env:
       ORG_NAME: BahmniIndiaDistro

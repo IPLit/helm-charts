@@ -5,6 +5,12 @@ on:
     types:
       - completed
 jobs:
+  testStatus:
+    name: Test Status
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Workflow Result
+        run: echo ${{ github.event.workflow_run.conclusion }}
   trigger:
     name: Trigger Workflows
     runs-on: ubuntu-latest

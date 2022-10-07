@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     env:
-      ORG_NAME: BahmniIndiaDistro
+      ORG_NAME: IPLit
       REPOSITORY_NAME: helm-umbrella-chart
       EVENT_TYPE: bahmniindia-helm-publish-event
     steps:

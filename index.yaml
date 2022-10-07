@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  otp-service:
+  - apiVersion: v2
+    created: "2022-10-07T10:59:42.164729063Z"
+    description: Helm chart for IPLit otp-service
+    digest: cfe9de430762c52e411f901b99cfcb3e41a0775bb1a198da6d5717c444d37494
+    name: otp-service
+    type: application
+    urls:
+    - https://IPLit.github.io/helm-charts/otp-service/otp-service-1.0.0-6.tgz
+    version: 1.0.0-6
+generated: "2022-10-07T10:59:42.163606166Z"

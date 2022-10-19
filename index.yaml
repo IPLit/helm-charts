@@ -1,8 +1,18 @@
 apiVersion: v1
 entries:
+  hip:
+  - apiVersion: v2
+    created: "2022-10-19T12:17:53.605837715Z"
+    description: Helm chart for hip service
+    digest: 95c2c914bd2112e131b746fe5e67ec6dd570d16d7b9bbff9c67cbb539c0b4b5c
+    name: hip
+    type: application
+    urls:
+    - https://iplit.github.io/helm-charts/hip/hip-1.0.0-6.tgz
+    version: 1.0.0-6
   otp-service:
   - apiVersion: v2
-    created: "2022-10-08T05:01:19.049686953Z"
+    created: "2022-10-19T12:17:53.606309417Z"
     description: Helm chart for IPLit otp-service
     digest: 0ccf6a37a1835ce86ce9dbcdd56d1884aa386ed63af378221307393ec4f7f668
     name: otp-service
@@ -11,7 +21,7 @@ entries:
     - https://iplit.github.io/helm-charts/otp-service/otp-service-1.0.0-10.tgz
     version: 1.0.0-10
   - apiVersion: v2
-    created: "2022-10-08T05:01:19.050858249Z"
+    created: "2022-10-19T12:17:53.607918225Z"
     description: Helm chart for IPLit otp-service
     digest: f6edb231f699f05eeb4b95d8800f0e386d40d8d3ddbab4a50c602ae084d002b7
     name: otp-service
@@ -20,7 +30,7 @@ entries:
     - https://iplit.github.io/helm-charts/otp-service/otp-service-1.0.0-9.tgz
     version: 1.0.0-9
   - apiVersion: v2
-    created: "2022-10-08T05:01:19.05060905Z"
+    created: "2022-10-19T12:17:53.607562224Z"
     description: Helm chart for IPLit otp-service
     digest: 8a20ca05b6c6a5cd7961bc760f128e80cbb95216edae6b1d47497ce004c6f38f
     name: otp-service
@@ -29,7 +39,7 @@ entries:
     - https://iplit.github.io/helm-charts/otp-service/otp-service-1.0.0-8.tgz
     version: 1.0.0-8
   - apiVersion: v2
-    created: "2022-10-08T05:01:19.050350451Z"
+    created: "2022-10-19T12:17:53.607123921Z"
     description: Helm chart for IPLit otp-service
     digest: b71fd6bd8e51d027a3de7ba4b2f12453837359a90b381fa86483399913b05089
     name: otp-service
@@ -38,7 +48,7 @@ entries:
     - https://iplit.github.io/helm-charts/otp-service/otp-service-1.0.0-7.tgz
     version: 1.0.0-7
   - apiVersion: v2
-    created: "2022-10-08T05:01:19.050062752Z"
+    created: "2022-10-19T12:17:53.606653819Z"
     description: Helm chart for IPLit otp-service
     digest: cfe9de430762c52e411f901b99cfcb3e41a0775bb1a198da6d5717c444d37494
     name: otp-service
@@ -46,4 +56,4 @@ entries:
     urls:
     - https://iplit.github.io/helm-charts/otp-service/otp-service-1.0.0-6.tgz
     version: 1.0.0-6
-generated: "2022-10-08T05:01:19.049216354Z"
+generated: "2022-10-19T12:17:53.605110411Z"
